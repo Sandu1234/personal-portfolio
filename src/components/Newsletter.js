@@ -6,8 +6,11 @@ import yourImagePath2 from '../assets/img/blog2.png';
 import yourImagePath3 from '../assets/img/blog3.png';
 
 
-export const Newsletter = ({ status, message, onValidated }) => {
-  const [email, setEmail] = useState('');
+// export const Newsletter = ({ status, message, onValidated }) => {
+//   const [email, setEmail] = useState('');
+
+  export const Newsletter = () => {
+
 
   // useEffect(() => {
   //   if (status === 'success') clearFields();

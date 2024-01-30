@@ -13,7 +13,7 @@ const BlogCard = ({ imagePath, title, excerpt, readMoreUrl }) => {
       color: 'white',
       overflow: 'hidden', // Ensure the image doesn't overflow the card boundaries
     }}>
-      <Card.Img variant="top" src={imagePath} style={{
+      <Card.Img variant="top" src={imagePath} alt="" style={{
         width: '100%', // Set image width to 100% of the container
         height: 'auto', // Set image height to auto to maintain aspect ratio
         objectFit: 'cover' // Ensure the image covers the area without stretching
