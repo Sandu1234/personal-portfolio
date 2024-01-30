@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import BlogCard from './BlogCard'; // Make sure BlogCard is in the correct relative path
 import yourImagePath1 from '../assets/img/blog1_resized.png';
