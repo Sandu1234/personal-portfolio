@@ -1,0 +1,20 @@
+/* ProjectCard styling */
+.proj-imgbx {
+  cursor: pointer;
+}
+
+.proj-txtx {
+  padding: 10px;
+}
+
+.proj-txtx h4 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #fff;
+}
+
+/* .proj-txtx span {
+  color: #999;
+} */
+
+/* Remove custom-modal and other modal-related styles */
