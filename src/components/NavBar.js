@@ -70,6 +70,13 @@ export const NavBar = () => {
                 Qualifications
               </Nav.Link>
               <Nav.Link
+                href="#achievements"
+                className={activeLink === 'achievements' ? 'active navbar-link' : 'navbar-link'}
+                onClick={() => onUpdateActiveLink('achievements')}
+              >
+                Achievements
+              </Nav.Link>
+              <Nav.Link
                 href="https://thoughtnexus.netlify.app/"
                 target="_blank"  // Opens the link in a new tab
                 className={activeLink === 'blogs' ? 'active navbar-link' : 'navbar-link'}

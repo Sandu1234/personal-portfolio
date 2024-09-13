@@ -834,87 +834,274 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Projects CSS */
 .project {
   padding: 80px 0;
-  position: relative;
-  background-color: #000;
-}
-.proj-imgbx {
-  position: relative;
-  overflow: hidden;
-  cursor: pointer;
-  border-radius: 10px;
-  transition: transform 0.3s ease-in-out;
-}
-.proj-imgbx img {
-  border-radius: 10px;
-}
-.proj-imgbx:hover {
-  transform: scale(1.05);
-}
-/* .proj-txtx {
-  position: absolute;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
-  width: 100%;
-  text-align: center;
-  padding: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-} */
-.proj-txtx h4, .proj-txtx span {
-  color: #fff;
+  background-color: #000; /* Keep background black as per your request */
+  color: #f8f9fa; /* Light color for text to ensure readability */
 }
 
-/* Modal Styling */
-.custom-modal {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  outline: none;
-  max-width: 500px;
-  width: 90%;
-}
-.modal-content {
+.project h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ffffff;
   text-align: center;
+  font-weight: 700;
 }
-.modal-content img {
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 10px;
+
+.project p {
+  color: #d1d1d1;
+  margin-bottom: 40px;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.modal-content button {
-  background: #000;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
+
+.nav-pills .nav-link {
+  color: #f8f9fa;
+  background-color: #343a40;
   border-radius: 5px;
-  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #61dafb;
+  color: #000;
+}
+
+.project-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.project-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: #1c1c1e;
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(255, 255, 255, 0.2);
+}
+
+.project-content {
+  padding: 20px;
+}
+
+.project-date {
+  display: block;
+  font-size: 14px;
+  color: #61dafb;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.project-title {
+  font-size: 20px;
+  margin: 5px 0;
+  color: #e0e0e0;
+  font-weight: 600;
+}
+
+.project-description {
+  font-size: 16px;
+  color: #bbbbbb;
   margin-top: 10px;
 }
 
-/* Add this CSS to style the modal content */
-.modal-content h2 {
+/*Achievement section*/
+.achievements {
+  padding: 80px 0;
+  background-color: #000; /* Keep consistent with the black theme */
+  color: #f8f9fa;
+}
+
+.achievements h2 {
+  font-size: 36px;
   margin-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
 }
 
-.modal-content .media-content {
-  margin-bottom: 20px;
+.achievements p {
+  color: #d1d1d1;
+  margin-bottom: 40px;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.modal-content .images img,
-.modal-content .videos video {
-  max-width: 100%;
-  margin-bottom: 10px;
-}
-
-.modal-content .technologies-used ul {
-  list-style-type: none;
+.certificate-list {
+  list-style: none;
   padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
 }
 
-.modal-content .technologies-used li {
-  margin-bottom: 5px;
+.certificate-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: #1c1c1e;
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.certificate-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(255, 255, 255, 0.2);
+}
+
+.certificate-content {
+  padding: 20px;
+}
+
+.certificate-title {
+  font-size: 20px;
+  margin: 5px 0;
+  color: #e0e0e0;
+  font-weight: 600;
+}
+
+.certificate-description {
+  font-size: 16px;
+  color: #bbbbbb;
+  margin-top: 10px;
+}
+
+.certificate-issuer {
+  display: block;
+  font-size: 14px;
+  color: #61dafb;
+  margin-top: 10px;
+}
+
+.certificate-date {
+  display: block;
+  font-size: 14px;
+  color: #bbbbbb;
+}
+
+.certificate-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: #1c1c1e;
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer; /* Indicate the item is clickable */
+}
+
+.certificate-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(255, 255, 255, 0.2);
+}
+
+.certificate-item:active {
+  transform: translateY(-2px); /* Slight press effect on click */
+}
+
+.certificate-content {
+  padding: 20px;
+}
+
+.certificate-title {
+  font-size: 20px;
+  margin: 5px 0;
+  color: #e0e0e0;
+  font-weight: 600;
+}
+
+.certificate-description {
+  font-size: 16px;
+  color: #bbbbbb;
+  margin-top: 10px;
+}
+
+.certificate-issuer {
+  display: block;
+  font-size: 14px;
+  color: #61dafb;
+  margin-top: 10px;
+}
+
+.certificate-date {
+  display: block;
+  font-size: 14px;
+  color: #bbbbbb;
+}
+
+
+/*project card model*/
+
+.project {
+  padding: 80px 0;
+  background-color: #000; /* Background black */
+  color: #f8f9fa; /* Light text color */
+}
+
+.project h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+}
+
+.project p {
+  color: #d1d1d1;
+  margin-bottom: 40px;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.project-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: #1c1c1e;
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.project-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(255, 255, 255, 0.2);
+}
+
+.certificate-content {
+  padding: 20px;
+}
+
+.project-title {
+  font-size: 20px;
+  margin: 5px 0;
+  color: #e0e0e0;
+  font-weight: 600;
+}
+
+.project-description {
+  font-size: 16px;
+  color: #bbbbbb;
+  margin-top: 10px;
+}
+
