@@ -59,13 +59,23 @@ export const Qualifications = () => {
       <div className="timeline-dot"></div>
       <div className="timeline-content">
         <h4>Trainee Software Engineer</h4>
-        <h3>hSenid Mobile Solutions (Pvt) Ltd. | Dec 2022 - Jun 2023</h3>
+        <h3>Applova Inc. | (hSenid Mobile Solutions (Pvt) Ltd.) | Jan 2023 - Dec 2023</h3>
         <p>Actively contributed to the development of the Admin and Merchant web units at Applova Inc., a US-based company operating under hSenid Mobile Solutions. Focusing on enhancing user experience and functionality. My role involved deep involvement in the full software development lifecycle, from requirement analysis to deployment and maintenance, with a keen focus on delivering user-centric solutions.</p>
         
         <p><strong>Technologies used:</strong> Java, Spring MVC, PostgreSQL, MongoDB, GIT, JSP</p>
       </div>
     </div>
+    <div className="timeline-block">
+      <div className="timeline-dot"></div>
+      <div className="timeline-content">
+        <h4>Freelance Web Developer</h4>
+        <h3>Present - Jan 2020</h3>
+        <p>I have been working as a freelance web developer since 2020, creating custom websites and web applications for various clients across different industries. During this time, I have gained extensive experience in front-end and back-end development, delivering high-quality projects tailored to meet my clients' needs. </p>
+        
+      </div>
+    </div>
     {/* Add more timeline blocks here for other experiences */}
+    
   </div>
 </Tab.Pane>
 
