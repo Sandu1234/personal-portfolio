@@ -54,7 +54,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Sandamini!`}<br/> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I am a self-motivated, conscientious, and diligent information technology and management undergraduate student with the ability to work in a group. Also, an active personality that is always eager to explore new paths and gain the most up-to-date expertise in a subject in order to help a business flourish.</p>
-                  <a href="https://drive.google.com/file/d/17BsninIzFwglPC3F8j6HYMJbxbFF4FEg/view?usp=sharing" download="sandamini_nayanathara.pdf" style={{ textDecoration: 'none' }}>
+                  <a href="https://drive.google.com/file/d/1mvAcY4p6MZQ2X_067rXWe_4oFivL-HX2/view?usp=sharing" download="sandamini_nayanathara.pdf" style={{ textDecoration: 'none' }}>
   <button>
     See My Resume <ArrowRightCircle size={25} />
   </button>

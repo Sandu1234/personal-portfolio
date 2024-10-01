@@ -52,6 +52,24 @@ export const Projects = () => {
       githubLink: "https://github.com/Sandu1234/quick-bill", // Add GitHub link
 
     },
+    {
+      date: "2024 Sep - 2024 Oct",
+      title: "Ice Cream Flavours",
+      description: "Design & Development",
+      fullDescription: "A vibrant and visually delightful single-page design showcasing a variety of ice cream flavors. Each flavor is presented with enticing imagery, rich colors, and brief descriptions to capture the essence of each taste, making it an irresistible browsing experience.",
+      imgUrl: "/path/to/image3.jpg",
+      githubLink: "https://github.com/Sandu1234/Flavours", // Add GitHub link
+
+    },
+    {
+      date: "2024 Sep - 2024 Oct",
+      title: "Our Team - Single Page",
+      description: "Design & Development",
+      fullDescription: "A well-crafted single-page design introducing the team members behind a project or organization. It features professional photos, roles, and personal details, all laid out in an organized and friendly format to highlight the unique strengths and personalities of each team member.",
+      imgUrl: "/path/to/image3.jpg",
+      githubLink: "https://github.com/Sandu1234/OurTeam", // Add GitHub link
+
+    },
   ];
 
   const uiuxProjects = [
