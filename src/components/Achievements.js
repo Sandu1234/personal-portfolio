@@ -5,6 +5,13 @@ import TrackVisibility from 'react-on-screen';
 export const Achievements = () => {
   const certificates = [
     {
+      title: "Certified of Completion of UI/UX for Beginners",
+      description: "Awarded by Great Learning | 2024",
+      issuer: "Great Learning",
+      date: "2024",
+      pdfUrl: "https://drive.google.com/file/d/1-opyPekLc1ShN1sX7cx0bAXuLUCdNIGz/view?usp=sharing", // Replace with the actual path to your PDF
+    },
+    {
       title: "Certified of Completion of Learning angular",
       description: "Awarded by Linkedin Learning | 2024",
       issuer: "Linkedin Learning",
