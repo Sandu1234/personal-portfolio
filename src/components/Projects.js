@@ -13,7 +13,7 @@ export const Projects = () => {
       description: "Design & Development",
       fullDescription: "A comprehensive project focusing on breast cancer classification using deep learning techniques. This project involved the development of an AI model that accurately classifies cancer subtypes based on medical imaging.",
       imgUrl: "/path/to/image1.jpg", // Replace with actual image paths
-      videoUrl: "https://www.youtube.com/embed/example-video", // Optional video link
+      liveDemoUrl: "https://breastguard.netlify.app/", // Optional video link
       githubLink: "https://github.com/yourusername/breast-cancer-classification", // Add GitHub link
 
     },
@@ -23,6 +23,7 @@ export const Projects = () => {
       description: "Design & Development",
       fullDescription: "Developed a comprehensive web solution for merchants, integrating various payment gateways and inventory management systems.",
       imgUrl: "/path/to/image2.jpg",
+      liveDemoUrl: "https://applova.io/", // Optional video link
       githubLink: "https://github.com/yourusername/breast-cancer-classification", // Add GitHub link
 
     },
@@ -32,6 +33,7 @@ export const Projects = () => {
       description: "Design & Development",
       fullDescription: "Created a detailed analytics platform providing insights on customer behavior and sales trends.",
       imgUrl: "/path/to/image3.jpg",
+      liveDemoUrl: "https://applova.io/products/analytics/", // Optional video link
       githubLink: "https://github.com/yourusername/breast-cancer-classification", // Add GitHub link
     },
     {
@@ -40,6 +42,7 @@ export const Projects = () => {
       description: "Design & Development",
       fullDescription: "A thoughtfully designed and developed personal blog website that offers a clean and engaging platform for sharing articles and insights on various topics.",
       imgUrl: "/path/to/image3.jpg",
+      liveDemoUrl: "https://thoughtnexus.netlify.app/", // Optional video link
       githubLink: "https://github.com/Sandu1234/Blog", // Add GitHub link
 
     },
@@ -49,6 +52,7 @@ export const Projects = () => {
       description: "Design & Development",
       fullDescription: "This tool helps small business owners, freelancers, and entrepreneurs create professional invoices quickly and easily. Customize your invoices with your logo, select your preferred currency, and generate beautiful, print-ready PDFs in minutes..",
       imgUrl: "/path/to/image3.jpg",
+      liveDemoUrl: "https://quick-bill.netlify.app/", // Optional video link
       githubLink: "https://github.com/Sandu1234/quick-bill", // Add GitHub link
 
     },
@@ -274,6 +278,11 @@ export const Projects = () => {
                                   {project.githubLink && (
                                     <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="project-link">
                                       <button className="btn btn-primary">GitHub</button>
+                                    </a>
+                                  )}
+                                  {project.liveDemoUrl && (
+                                    <a href={project.liveDemoUrl} target="_blank" rel="noopener noreferrer" className="project-link">
+                                      <button className="btn btn-primary">Live Demo</button>
                                     </a>
                                   )}
                                   {project.dribbbleLink && (
