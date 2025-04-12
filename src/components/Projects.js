@@ -8,6 +8,25 @@ export const Projects = () => {
   // Define projects for each section
   const softwareProjects = [
     {
+      date: "2024 Dec - 2025 Jan",
+      title: "Elephant House Superheroes Compition Official Website Development",
+      description: "Design & Development",
+      fullDescription: "A comprehensive project focusing on breast cancer classification using deep learning techniques. This project involved the development of an AI model that accurately classifies cancer subtypes based on medical imaging.",
+      imgUrl: "/path/to/image1.jpg", // Replace with actual image paths
+      liveDemoUrl: "https://therailwayviewvilla.com/", // Optional video link
+
+    },
+    {
+      date: "2024 Dec - 2025 Apr",
+      title: "Official Website Development for Railway View Villa in Ella",
+      description: "Design & Development",
+      fullDescription: "A comprehensive project focusing on breast cancer classification using deep learning techniques. This project involved the development of an AI model that accurately classifies cancer subtypes based on medical imaging.",
+      imgUrl: "/path/to/image1.jpg", // Replace with actual image paths
+      liveDemoUrl: "https://breastguard.netlify.app/", // Optional video link
+      githubLink: "https://github.com/yourusername/breast-cancer-classification", // Add GitHub link
+
+    },
+    {
       date: "2023 Dec - 2024 Jun",
       title: "Breast cancer classification Localization and subtype identification",
       description: "Design & Development",
@@ -78,6 +97,79 @@ export const Projects = () => {
 
   const uiuxProjects = [
     {
+      date: "2024 Dec - 2025 Apr",
+      title: "Smart Payment Tracker – Dark Mode UI Design",
+      description: "Design & Development",
+      fullDescription: "Designed a visually stunning web experience inspired by the cosmos, incorporating smooth animations and interactive elements.",
+      imgUrl: "/path/to/image4.jpg",
+      dribbbleLink: "https://www.behance.net/gallery/223515887/Smart-Payment-Tracker-Dark-Mode-UI-Design", // Add Dribbble link
+
+    },
+    {
+      date: "2024 Dec - 2025 Apr",
+      title: "MindBalance – A Minimalist Productivity Dashboard",
+      description: "Design & Development",
+      fullDescription: "Designed a visually stunning web experience inspired by the cosmos, incorporating smooth animations and interactive elements.",
+      imgUrl: "/path/to/image4.jpg",
+      dribbbleLink: "https://www.behance.net/gallery/223512273/MindBalance-A-Minimalist-Productivity-Dashboard", // Add Dribbble link
+
+    },
+    {
+      date: "2024 Dec - 2025 Apr",
+      title: "Foodmania Restaurant Management System",
+      description: "Design & Development",
+      fullDescription: "Designed a visually stunning web experience inspired by the cosmos, incorporating smooth animations and interactive elements.",
+      imgUrl: "/path/to/image4.jpg",
+      dribbbleLink: "https://www.behance.net/gallery/223442363/Foodmania-Restaurant-Management-System", // Add Dribbble link
+
+    },
+    {
+      date: "2024 Dec - 2025 Apr",
+      title: "Travel In Tents – A Mood-Based Nature Escape App",
+      description: "Design & Development",
+      fullDescription: "Designed a visually stunning web experience inspired by the cosmos, incorporating smooth animations and interactive elements.",
+      imgUrl: "/path/to/image4.jpg",
+      dribbbleLink: "https://www.behance.net/gallery/223417467/Travel-In-Tents-A-Mood-Based-Nature-Escape-App", // Add Dribbble link
+
+    },
+
+    {
+      date: "2024 Dec - 2025 Apr",
+      title: "Elephant House SuperHeroes Official Website",
+      description: "Design & Development",
+      fullDescription: "Designed a visually stunning web experience inspired by the cosmos, incorporating smooth animations and interactive elements.",
+      imgUrl: "/path/to/image4.jpg",
+      dribbbleLink: "https://www.behance.net/gallery/220867901/Elephant-House-SuperHeroes-Official-Website", // Add Dribbble link
+
+    },
+    {
+      date: "2024 Dec - 2025 Apr",
+      title: "Elephant House SuperHeroes Official Website",
+      description: "Design & Development",
+      fullDescription: "Designed a visually stunning web experience inspired by the cosmos, incorporating smooth animations and interactive elements.",
+      imgUrl: "/path/to/image4.jpg",
+      dribbbleLink: "https://www.behance.net/gallery/220867901/Elephant-House-SuperHeroes-Official-Website", // Add Dribbble link
+
+    },
+    {
+      date: "2024 Dec - 2025 Apr",
+      title: "Online Courses Dashboard",
+      description: "Design & Development",
+      fullDescription: "Designed a visually stunning web experience inspired by the cosmos, incorporating smooth animations and interactive elements.",
+      imgUrl: "/path/to/image4.jpg",
+      dribbbleLink: "https://www.behance.net/gallery/217633109/Online-Courses-Dashboard", // Add Dribbble link
+
+    },
+    {
+      date: "2024 Dec - 2025 Apr",
+      title: "Skin Care Product Website",
+      description: "Design & Development",
+      fullDescription: "Designed a visually stunning web experience inspired by the cosmos, incorporating smooth animations and interactive elements.",
+      imgUrl: "/path/to/image4.jpg",
+      dribbbleLink: "https://www.behance.net/gallery/217519019/Skin-Care-Product-Website", // Add Dribbble link
+
+    },
+    {
       date: "2023 Dec - 2024 Jul",
       title: "Galactic Voyage: A Stellar Web Experience",
       description: "Design & Development",
@@ -93,7 +185,6 @@ export const Projects = () => {
       fullDescription: "Built a digital platform aimed at enhancing lifelong learning with user-friendly interfaces and rich content.",
       imgUrl: "/path/to/image5.jpg",
       dribbbleLink: "https://dribbble.com/shots/23458839-Empowering-Education-A-Digital-Platform-for-Lifelong-Learning?utm_source=Clipboard_Shot&utm_campaign=nayanathara&utm_content=Empowering%20Education%3A%20A%20Digital%20Platform%20for%20Lifelong%20Learning&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=nayanathara&utm_content=Empowering%20Education%3A%20A%20Digital%20Platform%20for%20Lifelong%20Learning&utm_medium=Social_Share", // Add Dribbble link
-
     },
     {
       date: "2023 Dec - 2024 Apr",
