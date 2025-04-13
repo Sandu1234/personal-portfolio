@@ -235,7 +235,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Banner Css ************/
 .banner {
   padding: 260px 0 100px 0;
-  background: linear-gradient(to right, #000428, #004e92);
+  background:  #000428;
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -255,7 +255,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner h1 {
-  font-size: 65px;
+  font-size: 85px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1;
@@ -353,13 +353,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .skill-bx {
-  background: linear-gradient(to right, #000428, #004e92);
-  border-radius: 64px;
+  background:  #000428;
   text-align: center;
-  padding: 60px 50px;
-  margin-top: -60px;
-  border: 2px solid #ffffff; /* Adds a white border */
-  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1), 0 10px 20px rgba(0, 0, 0, 0.5); /* Adds shadow */
 }
 
 .skill h2 {
@@ -457,23 +452,42 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project .nav.nav-pills .nav-link.active::before {
     width: 100% !important;
 }
-.project .nav.nav-pills .nav-link.active {
-    border: 1px solid rgba(255, 255, 255, 1);
-}
 
+
+
+
+/* -------- Mobile & Tablet View Fix -------- */
 @media (max-width: 768px) {
-  .nav {
+  .project .nav.nav-pills {
     display: flex;
-    flex-wrap: nowrap; /* Keeps it in one row */
-    overflow-x: auto; /* Enables horizontal scrolling */
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    padding: 0 10px;
+    background-color: transparent;
   }
 
-  .nav .nav-link {
-    white-space: nowrap; /* Prevents text from wrapping */
-    padding: 8px 10px; /* Adjust padding for smaller devices */
-    margin: 0 5px; /* Reduce margins between items */
+  .project .nav.nav-pills .nav-item {
+    width: 100%;
+  }
+
+  .project .nav.nav-pills .nav-link {
+    width: 100%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+  }
+
+  .project .nav.nav-pills .nav-link.active {
+    background: linear-gradient(to right, #000428, #004e92);
   }
 }
+
 
 .nav-link#projects-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -542,7 +556,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(to right, #000428, #004e92);;
+  background:  #000428;
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -632,7 +646,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 20px 0;
-  background: linear-gradient(to right, #000428, #004e92);
+  background:  #000428;
   color: #b8b8b8;
   border: 2px solid #ffffff; /* Adds a white border */
   border-radius: 20px;
@@ -719,15 +733,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .qualification-bx {
-  background: linear-gradient(to right, #000428, #004e92);
-  border-radius: 64px;
+  background:  #000428;
   text-align: center;
-  padding: 80px 50px 60px; 
-  margin-top: -60px;
-  margin-left: auto; 
-  margin-right: auto; 
-  max-width: 1300px; /* Maximum width of the box, adjust as needed */
-  border: 2px solid #ffffff; /* Adds a white border */
 }
 
 
@@ -1205,4 +1212,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #bbbbbb;
   margin-top: 10px;
 }
+
+
 
